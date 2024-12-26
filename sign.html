@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Share</title>
+    <link rel="stylesheet" href="food.css">
+</head>
+<body>
+    <header>
+        <div class="logo">FoodShare</div>
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="How.html">How It Works</a>
+            <a href="donate.html">Donate</a>
+            <a href="request.html">Request Food</a>
+            <a href="cont.html">Contact</a>
+        </nav>
+        <div>
+            <a href="log.html" style="color:rgb(241, 241, 248);text-decoration: none;">Login</a> |
+            <a href="sign.html" style="color:rgb(241, 241, 248);text-decoration: none;">Sign Up</a>
+        </div>
+    </header>
+    <section class="form-container" id="signup">
+        <h2>Sign Up</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+        <div class="switch">
+            <p>Already have an account? <a href="log.html">Login</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 FoodShare | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
